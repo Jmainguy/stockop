@@ -1,0 +1,15 @@
+domain: soh.re
+layout:
+- go.kubebuilder.io/v3
+projectName: stockop
+repo: github.com/jmainguy/stockop
+resources:
+- api:
+    crdVersion: v1
+  controller: true
+  domain: soh.re
+  group: stockop
+  kind: Stock
+  path: github.com/jmainguy/stockop/api/v1
+  version: v1
+version: "3"

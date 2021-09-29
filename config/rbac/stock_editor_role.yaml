@@ -1,0 +1,24 @@
+# permissions for end users to edit stocks.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: stock-editor-role
+rules:
+- apiGroups:
+  - stockop.soh.re
+  resources:
+  - stocks
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - stockop.soh.re
+  resources:
+  - stocks/status
+  verbs:
+  - get

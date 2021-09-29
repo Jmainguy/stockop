@@ -1,0 +1,20 @@
+# permissions for end users to view stocks.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: stock-viewer-role
+rules:
+- apiGroups:
+  - stockop.soh.re
+  resources:
+  - stocks
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - stockop.soh.re
+  resources:
+  - stocks/status
+  verbs:
+  - get
