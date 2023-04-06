@@ -56,6 +56,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/Finnhub-Stock-API/finnhub-go/v2 v2.0.5 h1:czEsYLKj0P9w0Gs8LUUpjzeJCqk/6Mff8TuUYG2IPrQ=
 github.com/Finnhub-Stock-API/finnhub-go/v2 v2.0.5/go.mod h1:QMfTqyJoQPPsDu6yAvVaTXSLtN0v8rBIn61fgzUN6CM=
+github.com/Finnhub-Stock-API/finnhub-go/v2 v2.0.16 h1:/BzUS8Xo1DetgslAK3x3/J+k5QETFr0bVpUQYOH+XTU=
+github.com/Finnhub-Stock-API/finnhub-go/v2 v2.0.16/go.mod h1:QMfTqyJoQPPsDu6yAvVaTXSLtN0v8rBIn61fgzUN6CM=
 github.com/NYTimes/gziphandler v0.0.0-20170623195520-56545f4a5d46/go.mod h1:3wb06e3pkSAbeQ52E9H9iFoQsEEwGN64994WTCIhntQ=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/PuerkitoBio/purell v1.1.1/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbtSwDGJws/X0=
