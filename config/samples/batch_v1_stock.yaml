@@ -1,0 +1,12 @@
+apiVersion: batch.soh.re/v1
+kind: Stock
+metadata:
+  labels:
+    app.kubernetes.io/name: stock
+    app.kubernetes.io/instance: stock-sample
+    app.kubernetes.io/part-of: stockopv3
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: stockopv3
+  name: stock-sample
+spec:
+  # TODO(user): Add fields here

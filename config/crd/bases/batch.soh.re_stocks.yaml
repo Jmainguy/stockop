@@ -1,14 +1,13 @@
-
 ---
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
   annotations:
-    controller-gen.kubebuilder.io/version: v0.4.1
+    controller-gen.kubebuilder.io/version: v0.11.1
   creationTimestamp: null
-  name: stocks.stockop.soh.re
+  name: stocks.batch.soh.re
 spec:
-  group: stockop.soh.re
+  group: batch.soh.re
   names:
     kind: Stock
     listKind: StockList
@@ -55,9 +54,3 @@ spec:
     storage: true
     subresources:
       status: {}
-status:
-  acceptedNames:
-    kind: ""
-    plural: ""
-  conditions: []
-  storedVersions: []

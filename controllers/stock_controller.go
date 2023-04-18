@@ -25,11 +25,12 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
+	"os"
+	"time"
+
 	finnhub "github.com/Finnhub-Stock-API/finnhub-go/v2"
 	"github.com/go-logr/logr"
 	stockopv1 "github.com/jmainguy/stockop/api/v1"
-	"os"
-	"time"
 )
 
 // StockReconciler reconciles a Stock object

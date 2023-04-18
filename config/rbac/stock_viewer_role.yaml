@@ -2,10 +2,17 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: stock-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: stockopv3
+    app.kubernetes.io/part-of: stockopv3
+    app.kubernetes.io/managed-by: kustomize
   name: stock-viewer-role
 rules:
 - apiGroups:
-  - stockop.soh.re
+  - batch.soh.re
   resources:
   - stocks
   verbs:
@@ -13,7 +20,7 @@ rules:
   - list
   - watch
 - apiGroups:
-  - stockop.soh.re
+  - batch.soh.re
   resources:
   - stocks/status
   verbs:

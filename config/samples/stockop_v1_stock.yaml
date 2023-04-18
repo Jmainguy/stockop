@@ -1,4 +1,0 @@
-apiVersion: stockop.soh.re/v1
-kind: Stock
-metadata:
-  name: cvs
